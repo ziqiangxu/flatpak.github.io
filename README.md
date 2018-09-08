@@ -32,3 +32,28 @@ To deploy your changes:
 
 This will push the site from ./build into origin/master branch. 
 The flatpak sysadmins then have to update the live site.
+
+## 翻译进度
+
+- [x] index.html
+- [x] setup.html
+  - [x] Ubuntu
+  - [x] Fedora
+  - [x] Red Hat Enterprise Linux
+  - [x] Linux Mint
+  - [x] openSUSE
+  - [x] Arch
+  - [x] Debian
+  - [x] CentOS
+  - [x] Gentoo
+  - [x] Solus
+  - [x] Alpine
+  - [x] Megeia
+  - [x] Pop!_OS
+  - [x] elementary OS
+  - [x] Raspbian
+- [x] press.html
+  - [x] Announcing Flatpak – Next Generation Linux Applications
+  - [x] Flatpak 1.0 Released, Ready for Prime Time
+- [x] about
+- [x] faq.html

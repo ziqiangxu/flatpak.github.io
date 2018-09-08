@@ -7,21 +7,21 @@ description: About Flatpak
   .container
     .row
       .col-lg-8.col-lg-offset-2
-        %h1.section-heading.text-center About Us
+        %h1.section-heading.text-center 关于我们
         %hr.primary
         %p
-          Flatpak is developed by an independent community, made up of contributors, volunteers and supporting organizations. It is a true upstream open source project, dedicated to providing technology and services that can be used by all, with no vendor lock-in. We have strong links to other Free Software projects, including the Freedesktop project.
+          Flatpak由独立社区开发，由贡献者，志愿者和支持组织组成。 它是一个真正的上游开源项目，致力于提供可供所有人使用的技术和服务，不与某个厂商绑定。 我们与其他自由软件项目有很强的联系，比如Freedesktop项目。
         %p
-          All our code is freely available, with no contributor agreement required. Volunteers and contributing organizations are welcome, as equal partners.
+          我们所有的代码都是免费提供的，不需要贡献者授权。我们欢迎志愿者和各组织作为平等的合作伙伴一道发展Flatpak。
     .row
       .col-lg-8.col-lg-offset-2
-        %h1.section-heading.text-center Contact
+        %h1.section-heading.text-center 联系我们
         %hr.primary
         %p
-          All our code is freely available, with no contributor agreement required. Volunteers and contributing organizations are welcome, as equal partners.
+          我们所有的代码都是免费提供的，不需要贡献者授权。我们欢迎志愿者和各组织作为平等的合作伙伴一道发展Flatpak。
     .row
       .col-lg-2.col-xs-4.col-lg-offset-4
-        .right.toneddown Mailing list
+        .right.toneddown 邮件列表
       .col-lg-4.col-xs-8
         =link_to "flatpak@lists.freedesktop.org", "http://lists.freedesktop.org/mailman/listinfo/flatpak"
     .row
@@ -31,79 +31,80 @@ description: About Flatpak
         =link_to "#flatpak on Freenode", "irc://freenode.net:6697/flatpak"
     .row
       .col-lg-2.col-xs-4.col-lg-offset-4
-        .right.toneddown GitHub project
+        .right.toneddown GitHub 项目
       .col-lg-4.col-xs-8
         =link_to "github.com/flatpak/flatpak", "https://github.com/flatpak/flatpak"
     .row.largegap
       .col-lg-8.col-lg-offset-2
         %p
-          Issues with this website can be reported through its
+          前往
           = succeed "." do
-            =link_to "GitHub project", "https://github.com/flatpak/flatpak.github.io/issues"#
+            =link_to "GitHub 项目", "https://github.com/flatpak/flatpak.github.io/issues"#
+            报告网站问题
     .row.largegap
       .col-lg-8.col-lg-offset-2
-        %h1.section-heading.text-center Flatpak History
+        %h1.section-heading.text-center Flatpak发展历程
         %hr.primary
         .timeline.mediumgap
           .date August 2007 
           .description 
-            Alexander Larsson releases Glick, his first app bundling framework
+            Alexander Larsson发布第一个打包框架——Glick
           .date November 2011
           .description
-            Glick 2 is released, a modernized version of the first Glick framework
+            发布Glick 2——现代化的Glick framework
           .date July 2012 
           .decription
-            “GNOME OS” session held at GUADEC, includes initial planning for a new app bundling format
+            在GUADEC举行的“GNOME OS”会议，提出对新应用程序捆绑格式的初步规划
           .date September 2012 
           .description
-            Alexander Larsson releases experimental “bundler” framework
+            Alexander Larsson发布实验性的打包框架
           .date January 2013
           .description
-            “Linux Apps” proposal discussed at the GNOME Developer Experience hackfest, Brussels
+            在布鲁塞尔的GNOME开发者体验讨论会上讨论了“Linux应用程序”提案
           .date December 2014
           .description
-            Work begins on xdg-app, which later becomes Flatpak
+            开始研发xdg-app, 即后来的Flatpak
           .date March 2015
           .descripton
-            xdg-app 0.1 released, the very first version of Flatpak
+            发布xdg-app 0.1——Flatpak的第一个版本
           .date December 2015
           .description
-            GNOME's “Software” gains the ability to install xdg-app applications
+            GNOME's “Software” 可以安装xdg-app应用啦
           .date May 2016
           .description
-            xdg-app renamed to Flatpak, 0.6.0 released; 
-            = succeed " included endorsements by Red Hat, Endless Computers and Collabora" do
+            xdg-app被重命名为Flatpak, 发布 0.6.0;
+            = succeed " 由Red Hat, Endless Computers and Collabora 背书" do
               =link_to "accompanying press release", "https://flatpak.org/press/2016-06-21-flatpak-released.html"
           .date June 2016
           .description
-            Work on desktop portals security framework begins
+            开始研发桌面portals安全框架
           .date July 2016
           .description
-            GTK+ 3.21.4 released with initial support for the portals framework
+            GTK+ 3.21.4 发布， 初始支持portals框架
           .date August 2016
           .description
-            Endless OS 3.0 released, the first publicly available OS to use Flatpak by default. Adoption of Flatpak by Apertis IVI also becomes public knowledge.
+            Endless OS 3.0发布, 第一个默认支持Flatpak的操作系统. Apertis IVI采用Flatpak也成为公众所知
           .date November 2016
           .description
-            ClearLinux announces their adoption of Flatpak
+            ClearLinux宣布适配Flatpak
           .date December 2016
           .description
-            Flatpak 0.8.0 released, the start of the first stable series with long-term support
+            发布Flatpak 0.8.0, 第一个长期支持的稳定版本开始
           .date May 2017
           .description
-            Initial soft launch of Flathub hosting service
+            Flathub托管服务的初始软启动
           .date May 2017
           .description
-            KDE Plasma 5.10 released with initial support for portals
+            KDE Plasma 5.10 发布(开始支持portals)
           .date October 2017
           .description
-            Flatpak 0.10.0 released, marking the start of the second supported stable release series
+            发布Flatpak 0.10.0, 标志着第二个支持的稳定版本系列的开始
           .date October 2017
           .description
-            KDE Plasma 5.11 released, “Discover” gains the ability to install Flatpak apps
+            KDE Plasma 5.11 发布, “Discover” 可以安装Flatpak应用啦
           .date November 2017
           .description
-            Linux Mint 18.3 released, includes out of the box Flatpak integration
+            Linux Mint 18.3发布, 集成Flatpak，开箱即用
           .date August 2018
           .description
-            Flatpak 1.0 released, the first release in a new stable series, with major new features; Flathub beta period ends; Freedesktop runtime 18.08 released with new support period policy
+            发布Flatpak 1.0（新的稳定版本）, 带来大量新特性; Flathub beta测试结束; Freedesktop runtime 18.08发布，带来新的支持策略

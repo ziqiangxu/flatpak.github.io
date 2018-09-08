@@ -4,31 +4,50 @@ description: Flatpak 1.0 Released, Ready for Prime Time
 ---
 <section class=""><div class="container"><div class="row"><div class="col-lg-10 col-lg-offset-1">
 :markdown
-  # Flatpak 1.0 Released, Ready for Prime Time
+  # Flatpak 1.0 正式发布, 迎接linux应用程序的黄金时代
   
   <img alt="" src="/img/delivery_truck.png" class="fright">
   
-  **Stockholm, Sweden, 20 August 2018**: Flatpak, the Linux desktop app distribution framework, reached an important milestone today, with the release of its 1.0 version.
+  **Stockholm, Sweden, 20 August 2018**: 随着1.0版本的发布，Linux桌面应用程序分发框架Flatpak今天达到了一个重要的里程碑。
 
-  For those who don't know, once an app has been built as a Flatpak, it can be installed on virtually any Linux distribution. This model is designed to make Linux a more attractive option for desktop app developers, and provides developers with a more stable platform on which to build and develop.
+  可能有些人不了解Flatpak，一旦将应用程序构建为Flatpak，它几乎可以安装在任何Linux发行版上。 
+  该模型旨在使Linux成为桌面应用程序开发者更具吸引力的选择，并为开发者提供更稳定的构建和开发平台。
 
-  Discussing the release, Flatpak’s lead developer, Alexander Larsson, has said: “A lot of work has gone into Flatpak 1.0 and we're confident that it's ready for wider use. Flatpak's goal has always been to revolutionize the Linux ecosystem and this is an important step towards that.” A 1.0 release generally marks the point at which software has become “feature complete”, so the fact that the developers are calling this a 1.0 is significant. But what does it mean in practice?
+  讨论1.0版本发布时，Flatpak的首席开发者Alexander Larsson说：“很多工作已经进入Flatpak 1.0，我们相信它已经准备好迎接更广泛的使用。 
+  Flatpak的目标始终是彻底改变Linux生态系统，这是向前迈出的重要一步。”
+  1.0版本通常标志着软件已经”功能完整”。因此开发人员称之为1.0的重要意义。 但这在实践中意味着什么呢？
 
-  Flatpak 1.0 comes with a collection of new features that application developers can take advantage of. Developers can mark versions of their apps as end of life, to indicate when they are no longer supported. There’s a new mechanism for apps to restart themselves. The command line interface has had a raft of improvements, including new commands and options.
+  Flatpak 1.0带来了一系列新特性。 开发者可以将其应用的版本标记为生命周期结束，以指示何时不再支持这些应用。 
+  应用程序有一种新的机制可以自行重启。 CLI有很多改进，包括新命令和选项。
 
-  Furthermore, Flatpak has matured since its last major stable release in October 2017. The new version promises to be faster and more reliable. There's also been some internal tidying up and reorganization. (This isn't so interesting to users and app developers, but it makes Flatpak that bit easier to integrate with your favorite Linux distro.)
+  此外，自2017年10月主要稳定版本发布以来，Flatpak已经成熟。新版本有望更快，更可靠。 还会做一些重构。 
+  （用户和开发者对这些可能并不怎么感兴趣，但它使得Flatpak更容易与您喜欢的Linux发行版集成。）
 
-  However, some of the biggest changes have been in the Flatpak ecosystem. To coincide with the release of Flatpak 1.0, the Flatpak developers are also taking the beta label off their Flathub service. Flathub is the central store for Flatpak apps. It is both a repository that can be used by Linux desktops, and a [website that users can use to browse and install apps](https://flathub.org/). It had a quiet, soft launch back in May 2017 and has seen rapid growth in the number of apps and users since then.
+  然而，Flatpak生态系统中发生了重大变化。 为配合Flatpak 1.0的发布，Flatpak开发者结束了Flathub服务的beta测试。 
+  Flathub是Flatpak应用程序的中心仓库。 它既可以是Linux桌面使用的仓库，也可以是
+  [用户可以用来浏览和安装应用程序的网站](https://flathub.org/)。 
+  自2017年5月发布以来，它的应用和用户数量迅速增长。
 
-  Flathub has become a major feature for developers, as LibreOffice’s Stephan Bergmann made clear: “Flatpak has come a long way since we first started using it; nowadays we can type a trivial command to get the latest LibreOffice 6.1 built and published on Flathub automatically. What keeps impressing me is the breadth and depth of the bug reports we receive for the LibreOffice Flatpak version. It shows that people are using it in all kinds of scenarios.”
+  Flathub是Flatpak生态中的一大特色，正如LibreOffice的Stephan Bergmann所说：
+  “自从我们第一次开始使用它以来，Flatpak已经走过了漫长的道路。 
+  现在我们可以输入一个简单的命令来自动获取在Flathub上构建和发布的最新LibreOffice 6.1。 
+  令我印象深刻的是我们收到LibreOffice Flatpak版本错误报告的广度和深度。 
+  这表明人们在各种场景中都在使用我们的产品。”
 
-  Another significant development in the Flatpak ecosystem relates to their “runtimes” - the platforms that applications are built and run against. The main “Freedesktop” runtime that is used by most Flatpak apps is having a major release to coincide with the Flatpak 1.0. This 18.08 release has a new lifecycle policy, which includes a regular release schedule and guarantees for support periods and security updates. This gives Flatpak’s app platforms a similar level of support to commercial operating system offerings.
+  Flatpak生态系统的另一个重要发展是“运行时” —— 应用程序构建和运行的平台。 
+  大多数Flatpak应用程序使用的“Freedesktop”运行时也发布了新版本。
+  18.08版本具有新的生命周期策略，其中包括常规发布计划以及支持期和安全更新的保证。 
+  这为Flatpak的应用程序平台提供了与商业操作系统产品类似的支持。
 
-  Flatpak's developers also point to other areas where the framework has matured. Their [developer documentation](http://docs.flatpak.org/en/latest/) has been rewritten and is much more complete. Flatpak’s website also includes [tutorials for setting up Flatpak on a lot more Linux distributions](https://flatpak.org/setup/) .
+  Flatpak的开发者还指出了框架已经成熟的其他领域。 
+  他们的[开发者文档](http://docs.flatpak.org/en/latest/)已被重写并且更加完整。 
+  Flatpak的网站还包括[在更多Linux发行版上设置Flatpak的教程](https://flatpak.org/setup/)。
 
-  The big question is what this means for the Linux landscape. Last November, Linux Mint, one of the larger Linux distributions, started using Flatpak by default, and Fedora is planning to start building its own Flatpaks very soon. It might just be that a tipping point has been reached.
+  最大的问题是这些对Linux的意义。 
+  去年11月，Linux Mint(一个较大的Linux发行版)默认使用Flatpak，Fedora计划构建自己的Flatpak。 
+  这些可能只是一个开始。
 
-  *This press release, including all content and media, can be freely used and modified without the need for attribution.*
+  *本新闻稿（包括内容和图片）可以自由转载和修改。*
 
 </div></div></div></section>
 

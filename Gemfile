@@ -1,6 +1,6 @@
 # If you have OpenSSL installed, we recommend updating
 # the following line to use "https"
-source 'http://rubygems.org'
+source 'https://gems.ruby-china.com'
 
 gem "middleman", "~> 3"#, github: "middleman/middleman", branch: "v3-stable"
 gem "middleman-google-analytics", '~> 2.1'

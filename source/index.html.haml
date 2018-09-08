@@ -7,10 +7,10 @@ description: The days of chasing multiple Linux distributions are over. Standalo
   .container
     .row.largegap
       .col-lg-12
-        %h1.section-heading 
-          The future of 
-          %span.emphasize apps on Linux
-        %p Flatpak is a next-generation technology for building and distributing desktop applications on Linux
+        %h1.section-heading
+          %span.emphasize Linux应用程序
+          的未来
+        %p Flatpak是在Linux上构建和分发桌面应用程序的下一代技术
 
 %section.illustration.centered
   .container
@@ -22,8 +22,8 @@ description: The days of chasing multiple Linux distributions are over. Standalo
   .container
     .row
       .col-sm-6.col-sm-offset-1
-        %h3 
-          Start using Flatpak and install from a growing collection of apps
+        %h3
+          开始使用Flatpak安装应用程序
         .appgrid
           - 0.upto(6) do |i|
             - if data.apps[i].icons["128"]
@@ -31,12 +31,12 @@ description: The days of chasing multiple Linux distributions are over. Standalo
             - elsif data.apps[i].icons["64"]
               .icon{:style => "background-image: url(#{data.apps[i].icons['64']})"}
       .col-sm-4.col-sm-offset-1.centered
-        %a#quicksetupbtn.btn-default.btn.btn-xl.page-scroll{:href => "/setup"} Get setup
+        %a#quicksetupbtn.btn-default.btn.btn-xl.page-scroll{:href => "/setup"} 快速开始
         
         %p.small.mediumgap
-          Already set up? Head over to
+          已安装Flatpak? 前往
           = link_to "Flathub", "https://flathub.org"
-          to install some apps.
+          安装应用程序
 
 
 
@@ -48,56 +48,58 @@ description: The days of chasing multiple Linux distributions are over. Standalo
           =link_to 'Flatpak 1.0', 'https://youtu.be/jDVCITRWGgs'
     .row.centered
       .col-sm-6.col-sm-offset-3
-        %h2 A new world for application developers
-        %p Flatpak changes app distribution for the better. Advantages include:
+        %h2 应用程序开发人员的新世界
+        %p Flatpak使得分发应用程序更加容易。 它有如下优势:
     .row.largegap
       .col-sm-5.col-sm-offset-1
-        %h4 Build for every distro
-        %p Create one app and distribute it to the entire Linux desktop market.
+        %h4 一次构建，到处分发
+        %p 创建一个应用程序，分发到整个Linux桌面市场。
       .col-sm-5
-        %h4 Stable platforms
-        %p Runtimes provide platforms of common libraries that you can depend on.
+        %h4 稳定的平台
+        %p 运行时提供了可以依赖的公共库平台。
     .row
       .col-sm-5.col-sm-offset-1
-        %h4 Consistent environments
-        %p Develop and test your application in an environment that’s identical to the one users have.
+        %h4 一致的环境
+        %p 在与用户相同的环境中开发和测试您的应用程序。
       .col-sm-5
-        %h4 Full control over dependencies
-        %p Flatpak makes it easy to bundle your own libraries as part of your app.
+        %h4 完全掌控的依赖
+        %p Flatpak可以轻松地将您自己的库捆绑为应用程序的一部分。
     .row
       .col-sm-5.col-sm-offset-1
-        %h4 Easy build tools
-        %p 
-          Flatpak’s build tools are simple and easy to use, and come with a 
-          =link_to 'full set of documentation.', 'http://docs.flatpak.org/'
+        %h4 简单易用的构建工具
+        %p
+          Flatpak的构建工具简单易用，并拥有
+          =link_to '完善的文档', 'http://docs.flatpak.org/'
+          。
       .col-sm-5
-        %h4 Future-proof builds
-        %p Flatpak apps continue to be compatible with new versions of Linux distributions.
+        %h4 良好的兼容性
+        %p Flatpak应用程序与新版本的Linux发行版兼容。
     .row
       .col-sm-5.col-sm-offset-1
-        %h4 Distribution made easy
-        %p 
-          Make your app available to a rapidly growing audience of Flatpak users, with
-          =link_to 'Flathub.', 'https://flathub.org/'
+        %h4 轻松分发
+        %p
+          通过
+          =link_to 'Flathub', 'https://flathub.org/'
+          ，让您的应用可供快速增长的Flatpak用户使用。
       .col-sm-5
-        %h4 An independent project
-        %p Flatpak is developed by an independent community, with no lock-in to a single vendor.
+        %h4 独立的项目
+        %p Flatpak由一个独立的社区开发，不和某个单一的厂商捆绑。
     .row.largegap
       .col-sm-6.col-sm-offset-4
-        %a.btn.btn-default.btn-xl.page-scroll{:href => "http://docs.flatpak.org/en/latest/getting-started.html"} 5 minute tutorial
-        %a.btn.btn-primary.btn-xl.page-scroll{:href => "http://docs.flatpak.org/en/latest/"} Developer guide
+        %a.btn.btn-default.btn-xl.page-scroll{:href => "http://docs.flatpak.org/en/latest/getting-started.html"} 5分钟教程
+        %a.btn.btn-primary.btn-xl.page-scroll{:href => "http://docs.flatpak.org/en/latest/"} 开发教程
 
 %section#devsplash.bg-secondary
   .container
     .row.largegap
       .col-sm-5.col-sm-offset-1
         %h3 
-          Flatpak can be used with a total of
+          Flatpak可以在
           = data.distro.count
-          distros
+          种发行版上使用
         %p
-          See the 
-          = link_to "complete list.", "/setup"
+          查看
+          = link_to "所有支持的发行版.", "/setup"
       .col-sm-6
         .distrogrid
           - 0.upto(4) do |i|
@@ -107,34 +109,34 @@ description: The days of chasing multiple Linux distributions are over. Standalo
   .container
     .row.centered
       .col-sm-6.col-sm-offset-3
-        %h2 What people are saying about Flatpak
+        %h2 关于Flatpak，他们说
     .row.largegap
       .col-sm-5.col-sm-offset-1
         %blockquote
           %p
-            Bringing Flatpak technology into Debian enables us to run applications in a predictable environment with their most suitable library stack, without compromising the base OS's stability and flexibility.
+            将Flatpak技术引入Debian使我们能够在可预测的环境中使用最合适的库运行应用程序，而不会影响基本操作系统的稳定性和灵活性。
           .author
             %em Simon McVittie 
-            .title Senior Software Engineer, Collabora
+            .title Collabora 高级软件工程师
       .col-sm-5
         %blockquote
           %p
-            At Endless, we’re proud to be a part of this movement and have fully embraced Flatpak by readily converting all of our applications for our upcoming release and continuing to build new Flatpak apps.
+            我们很高兴参与这项运动，全面拥抱Flatpak技术，新版本将采用Flatpak构建。
           .author
             %em Jonathan Blandford 
-            .title VP of Software Engineering, Endless
+            .title Endless 软件工程副总裁
     .row
       .col-sm-5.col-sm-offset-1
         %blockquote
           %p
-            The Fedora Workstation team are very excited about Flatpak and the prospects it brings for making the Linux desktop easier to develop for. We plan to continue supporting this effort going forward.
+            Fedora工作站团队对Flatpak以及它使Linux桌面开发更容易带来的前景感到非常兴奋。 我们计划继续支持这项工作。
           .author
             %em Christian F.K. Schaller
-            .title Senior Manager, Red Hat
+            .title Red Hat 高级经理
       .col-sm-5
         %blockquote
           %p
-            Flatpak will enable us (as a Linux ISV) to distribute a better LibreOffice, with up-to-date dependencies and a platform that can run on many systems. I’m excited to see that happen.
+            Flatpak将使我们（作为Linux ISV）能够分发更好的LibreOffice，具有最新的依赖关系和可在许多系统上运行的平台。 我很高兴看到这种情况发生。
           .author
             %em Michael Meeks
-            .title Director, The Document Foundation
+            .title The Document Foundation 主管

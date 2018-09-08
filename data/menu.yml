@@ -1,17 +1,17 @@
-- title: Get Setup
+- title: 快速开始
   link: "/setup/"
   onlyfooter: true
-- title: Browse Apps &#8599;
+- title: 浏览应用程序 &#8599;
   link: "https://flathub.org/"
   onlyfooter: true
-- title: Developer guide &#8599;
+- title: 开发者教程 &#8599;
   link: "http://docs.flatpak.org/"
   onlyfooter: true
-- title: Press
+- title: 新闻资讯
   link: "/press.html"
   onlyfooter: true
 - title: FAQ
   link: "/faq.html"
   onlyfooter: true
-- title: About Us & Contact
+- title: 关于我们 & 联系我们
   link: "/about.html"

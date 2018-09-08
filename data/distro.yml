@@ -3,8 +3,8 @@
   info: >  
     <ol class="distrotut">
       <li>
-        <h2>Install Flatpak</h2>
-        <p>The official Flatpak PPA is the recommended way to install Flatpak. To install it, run the following in a terminal:</p>
+        <h2>安装Flatpak</h2>
+        <p>推荐使用Flatpak官方的PPA来安装Flatpak。 在终端中运行下面的命令:</p>
         <pre><code>
           <span class="unselectable">$</span> sudo add-apt-repository ppa:alexlarsson/flatpak
           <span class="unselectable">$</span> sudo apt update
@@ -12,22 +12,22 @@
         </code></pre>
       </li>
       <li>
-        <h2>Install the Software Flatpak plugin</h2>
-        <p>The Flatpak plugin for the Software app makes it possible to install apps without needing the command line. To install, run:</p>
+        <h2>安装Flatpak插件</h2>
+        <p>Flatpak插件可以不敲命令来安装Flatpak应用。运行:</p>
         <pre><code>
           <span class="unselectable">$</span> sudo apt install gnome-software-plugin-flatpak
         </code></pre>
       </li>
       <li>
-        <h2>Add the Flathub repository</h2>
-        <p>Flathub is the best place to get Flatpak apps. To enable it, run:</p>
+        <h2>添加Flathub仓库</h2>
+        <p>Flathub是托管Flatpak应用的最佳之处。启用Flathub，运行:</p>
         <pre><code>
           <span class="unselectable">$</span> flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
         </code></pre>
       </li>
       <li>
-        <h2>Restart</h2>
-        <p>To complete setup, restart your system. Now all you have to do is <a href="https://flathub.org/">install some apps</a>!</p>
+        <h2>重启</h2>
+        <p>重启计算机以完成安装. 现在快来 <a href="https://flathub.org/">安装应用</a>吧!</p>
       </li>
     </ol>
     
@@ -36,70 +36,70 @@
   info: >
     <ol class="distrotut">
       <!-- Flatpak has been installed by default on Fedora Workstation since F25. Previous versions are past end of life, so don’t need to be mentioned. -->
-      <p>Flatpak is installed by default on Fedora Workstation. To get started, all you need to do is enable Flathub, which is the best way to get Flatpak apps. Just download and install the <a class="btn btn-default" href="https://flathub.org/repo/flathub.flatpakrepo">Flathub repository file</a>.</p>
-      <p>Now all you have to do is <a href="https://flathub.org/">install some apps</a>!</p>
+      <p>Fedora工作站已经默认安装了Flatpak. Flathub是托管Flatpak应用的最佳之处。快启用Flathub. 仅需要下载安装<a class="btn btn-default" href="https://flathub.org/repo/flathub.flatpakrepo">Flathub repository file</a>.</p>
+      <p>现在快来 <a href="https://flathub.org/">安装应用</a>吧!</p>
     </ol>
 
 - name: "Endless OS"
   logo: "endless.svg"
   info: >
-    <h1>Flatpak support is built into Endless OS 3.0.0 and newer—no setup required!</h1>
-    <p>If you are using an older version, <a href="https://community.endlessos.com/t/upgrade-from-endless-os-2-x-to-endless-os-3/967">upgrade to Endless OS 3</a>.</p>
+    <h1>Endless OS 3.0.0已支持Flatpak，新用户不需要安装!</h1>
+    <p>如果你正在使用老版本, <a href="https://community.endlessos.com/t/upgrade-from-endless-os-2-x-to-endless-os-3/967">升级到Endless OS 3</a>.</p>
 
 - name: "Red Hat Enterprise Linux"
   logo: "redhat.svg"
   info: >
     <ol class="distrotut">
       <li>
-        <h2>Install Flatpak</h2>
-        <p>To install Flatpak on Red Hat Enterprise Linux 7, run the following in a terminal:</p>
+        <h2>安装Flatpak</h2>
+        <p>运行下面的命令在Red Hat Enterprise Linux 7上安装Flatpak:</p>
         <pre><code>
           <span class="unselectable">$</span> sudo yum install flatpak
         </code></pre>
       </li>
       <!-- Apparently the GNOME Software Flatpak plugin is shipped as part of the GNOME Software package, so there’s no need to separately install it -->
       <li>
-        <h2>Add the Flathub repository</h2>
-        <p>Flathub is the best place to get Flatpak apps. To enable it, run:</p>
+        <h2>添加Flathub仓库</h2>
+        <p>Flathub是托管Flatpak应用的最佳之处。启用Flathub，运行:</p>
         <pre><code>
           <span class="unselectable">$</span> flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
         </code></pre>
       </li>
       <li>
-        <h2>Restart</h2>
-        <p>To complete setup, restart your system. Now all you have to do is <a href="https://flathub.org/">install some apps</a>!</p>
+        <h2>重启</h2>
+        <p>重启计算机以完成安装. 现在快来 <a href="https://flathub.org/">安装应用</a>吧!</p>
       </li>
     </ol>
 
 - name: "Linux Mint"
   logo: "mint.svg"
   info: >
-    <h1>Flatpak support is built into Linux Mint 18.3 and newer—no setup required!</h1>
-    <p>If you are using an older version, <a href="https://blog.linuxmint.com/?p=3462">upgrade to Linux Mint 18.3</a>.</p>
+    <h1>Linux Mint 18.3已支持Flatpak，新用户不需要安装!</h1>
+    <p>如果你正在使用老版本,<a href="https://blog.linuxmint.com/?p=3462">升级到Linux Mint 18.3</a>.</p>
 
 - name: "openSUSE"
   logo: "opensuse.svg"
   info: >
     <ol class="distrotut">
       <li>
-        <h2>Install Flatpak</h2>
-        <p>Flatpak can be installed on Leap 42.1, Leap 42.2 and Tumbleweed using a 1-click install.</p>
-        <p>On Tumbleweed, Flatpak can also be installed using Zypper:</p>
+        <h2>安装Flatpak</h2>
+        <p>Leap 42.1, Leap 42.2和Tumbleweed可以一键安装Flatpak</p>
+        <p>在Tumbleweed, 可以使用Zypper安装Flatpak:</p>
         <pre><code>
           <span class="unselectable">$</span> sudo zypper install flatpak
         </code></pre>
       </li>
       <li>
-        <h2>Add the Flathub repository</h2>
-        <p>Flathub is the best place to get Flatpak apps. To enable it, run:</p>
+        <h2>添加Flathub仓库</h2>
+        <p>Flathub是托管Flatpak应用的最佳之处。启用Flathub，运行:</p>
         <pre><code>
           <span class="unselectable">$</span> flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
         </code></pre>
       </li>
       <li>
-        <h2>Restart</h2>
-        <p>To complete setup, restart your system. Now all you have to do is <a href="https://flathub.org/">install some apps</a>!</p>
-        <p>Note: Flatpak applications can only be installed using the graphical Software application on either Tumbleweed or Leap 15.0 and later.</p>
+        <h2>重启</h2>
+        <p>重启计算机以完成安装. 现在快来 <a href="https://flathub.org/">安装应用</a>吧!</p>
+        <p>Note: Tumbleweed和Leap 15.0及以上版本仅可通过图形界面安装Flatpak应用。</p>
       </li>
     </ol>
 
@@ -108,8 +108,8 @@
   info: >
     <ol class="distrotut">
       <li>
-        <h2>Install Flatpak</h2>
-        <p>To install Flatpak, run the following in a terminal:</p>
+        <h2>安装Flatpak</h2>
+        <p>运行下面的命令安装Flatpak:</p>
         <pre><code>
           <span class="unselectable">$</span> sudo pacman -S flatpak
         </code></pre>
@@ -117,8 +117,8 @@
       <!-- On arch, Flathub is added when the Flatpak package is installed. -->
       <!-- Apparently the GNOME Software Flatpak plugin is shipped as part of the GNOME Software package, so there's no need to separately install it -->
       <li>
-        <h2>Restart</h2>
-        <p>To complete setup, restart your system. Now all you have to do is <a href="https://flathub.org/">install some apps</a>!</p>
+        <h2>重启</h2>
+        <p>重启计算机以完成安装. 现在快来 <a href="https://flathub.org/">安装应用</a>吧!</p>
       </li>
     </ol>
 
@@ -127,30 +127,30 @@
   info:  >
     <ol class="distrotut">
       <li>
-        <h2>Install Flatpak</h2>
-        <p>A flatpak package is available in Debian Stretch and newer. To install it, run the following as root:</p>
+        <h2>安装Flatpak</h2>
+        <p>Debian Stretch及以上版本已经提供flatpak软件包。以root权限运行下面的命令:</p>
         <pre><code>
           <span class="unselectable">#</span> apt install flatpak
         </code></pre>
-        <p>For Debian Jessie, a flatpak package is available in the <a href="https://backports.debian.org/Instructions/">official backports repository</a>.</p>
+        <p>如果使用的是Debian Jessie, 在<a href="https://backports.debian.org/Instructions/">official backports repository</a>有提供flatpak软件包.</p>
       </li>
       <li>
-        <h2>Install the Software Flatpak plugin</h2>
-        <p>If you are running GNOME, it is also a good idea to install the Flatpak plugin for GNOME Software. To do this, run:</p>
+        <h2>安装Flatpak插件</h2>
+        <p>如果你使用GNOME, 请为GNOME软件安装Flatpak插件。 运行:</p>
         <pre><code>
           <span class="unselectable">#</span> apt install gnome-software-plugin-flatpak
         </code></pre>
       </li>
       <li>
-        <h2>Add the Flathub repository</h2>
-        <p>Flathub is the best place to get Flatpak apps. To enable it, run:</p>
+        <h2>添加Flathub仓库</h2>
+        <p>Flathub是托管Flatpak应用的最佳之处。启用Flathub，运行:</p>
         <pre><code>
           <span class="unselectable">#</span> flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
         </code></pre>
       </li>
       <li>
-        <h2>Restart</h2>
-        <p>To complete setup, restart your system. Now all you have to do is <a href="https://flathub.org/">install some apps</a>!</p>
+        <h2>重启</h2>
+        <p>重启计算机以完成安装. 现在快来 <a href="https://flathub.org/">安装应用</a>吧!</p>
       </li>
     </ol>
 
@@ -158,8 +158,8 @@
   logo: "cent-os.svg"
   info: >
     <ol class="distrotut">
-      <p>Flatpak is installed by default on CentOS 7, when using GNOME. To get started, all you need to do is enable Flathub, which is the best way to get Flatpak apps. Just download and install the <a class="btn btn-default" href="https://flathub.org/repo/flathub.flatpakrepo">Flathub repository file</a>.</p>
-      <p>Now all you have to do is <a href="https://flathub.org/">install some apps</a>!</p>
+      <p>使用GNOME时，CentOS 7已默认安装Flatpak。快下载安装<a class="btn btn-default" href="https://flathub.org/repo/flathub.flatpakrepo">Flathub repository file</a>启用Flathub。</p>
+      <p>现在快来 <a href="https://flathub.org/">安装应用</a>吧!</p>
     </ol>
   
 - name: "Gentoo"
@@ -167,20 +167,20 @@
   info: >
     <ol class="distrotut">
       <li>
-        <h2>Install Flatpak</h2>
-        <p>Flatpak can be installed on Gentoo using the Flatpak overlay. See <a href="https://github.com/fosero/flatpak-overlay">the readme for instructions</a>.</p>
+        <h2>安装Flatpak</h2>
+        <p>在Gentoo上使用Flatpak overlay安装Flatpak. 更多信息，请查看<a href="https://github.com/fosero/flatpak-overlay">the readme for instructions</a>.</p>
       </li>
       <li>
-        <h2>Add the Flathub repository</h2>
-        <p>Flathub is the best place to get Flatpak apps. To enable it, run:</p>
+        <h2>添加Flathub仓库</h2>
+        <p>Flathub是托管Flatpak应用的最佳之处。启用Flathub，运行:</p>
         <pre><code>
           <span class="unselectable">$</span> flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
         </code></pre>
       </li>
       <li>
-        <h2>Restart</h2>
-        <p>To complete setup, restart your system. Now all you have to do is <a href="https://flathub.org/">install some apps</a>!</p>
-        <p>Note: graphical installation of Flatpak apps may not be possible with Gentoo.</p>
+        <h2>重启</h2>
+        <p>重启计算机以完成安装. 现在快来 <a href="https://flathub.org/">安装应用</a>吧!</p>
+        <p>Note: Gentoo可能无法使用图形化界面安装Flatpak应用。</p>
       </li>
     </ol>
 
@@ -189,23 +189,23 @@
   info: >
     <ol class="distrotut">
       <li>
-        <h2>Install Flatpak</h2>
-        <p>To install Flatpak, run the following in a terminal:</p>
+        <h2>安装Flatpak</h2>
+        <p>在终端中运行下面的命令安装Flatpak:</p>
         <pre><code>
           <span class="unselectable">$</span> sudo eopkg install flatpak xdg-desktop-portal-gtk
         </code></pre>
       </li>
       <li>
-        <h2>Add the Flathub repository</h2>
-        <p>Flathub is the best place to get Flatpak apps. To enable it, run:</p>
+        <h2>添加Flathub仓库</h2>
+        <p>Flathub是托管Flatpak应用的最佳之处。启用Flathub，运行:</p>
         <pre><code>
           <span class="unselectable">$</span> flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
         </code></pre>
       </li>
       <li>
-        <h2>Restart</h2>
-        <p>To complete setup, restart your system. Now all you have to do is <a href="https://flathub.org/">install some apps</a>!</p>
-        <p>Note: graphical installation of Flatpak apps may not be possible with Solus.</p>
+        <h2>重启</h2>
+        <p>重启计算机以完成安装. 现在快来 <a href="https://flathub.org/">安装应用</a>吧!</p>
+        <p>Note: Solus可能无法使用图形化界面安装Flatpak应用。</p>
       </li>
     </ol>
 
@@ -214,23 +214,23 @@
   info: >
     <ol class="distrotut">
       <li>
-        <h2>Install Flatpak</h2>
-        <p>Flatpak can be installed from the testing repository. Run the following in a terminal:</p>
+        <h2>安装Flatpak</h2>
+        <p>从测试仓库安装Flatpak. 在终端运行下面的命令:</p>
         <pre><code>
           <span class="unselectable">$</span> sudo apk add flatpak
         </code></pre>
       </li>
       <li>
-        <h2>Add the Flathub repository</h2>
-        <p>Flathub is the best place to get Flatpak apps. To enable it, run:</p>
+        <h2>添加Flathub仓库</h2>
+        <p>Flathub是托管Flatpak应用的最佳之处。启用Flathub，运行:</p>
         <pre><code>
           <span class="unselectable">$</span> flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
         </code></pre>
       </li>
       <li>
-        <h2>Restart</h2>
-        <p>To complete setup, restart your system. Now all you have to do is <a href="https://flathub.org/">install some apps</a>!</p>
-        <p>Note: graphical installation of Flatpak apps may not be possible with Alpine.</p>
+        <h2>重启</h2>
+        <p>重启计算机以完成安装. 现在快来 <a href="https://flathub.org/">安装应用</a>吧!</p>
+        <p>Note: Alpine可能无法使用图形化界面安装Flatpak应用。</p>
       </li>
     </ol>
 
@@ -239,27 +239,27 @@
   info: >
     <ol class="distrotut">
       <li>
-        <h2>Install Flatpak</h2>
-        <p>A flatpak package is available for Mageia 6 and newer. To install with DNF, run the following as root:</p>
+        <h2>安装Flatpak</h2>
+        <p>Mageia 6及以上版本可以使用Flatpak. 如果采用DNF安装, 以root权限运行下面的命令:</p>
         <pre><code>
           <span class="unselectable">#</span> dnf install flatpak
         </code></pre>
-        <p>Or, to install with <code>urpmi</code>, run:</p>
+        <p>或者使用<code>urpmi</code>安装, 运行命令:</p>
         <pre><code>
           <span class="unselectable">#</span> urpmi flatpak
         </code></pre>
       </li>
       <li>
-        <h2>Add the Flathub repository</h2>
-        <p>Flathub is the best place to get Flatpak apps. To enable it, run:</p>
+        <h2>添加Flathub仓库</h2>
+        <p>Flathub是托管Flatpak应用的最佳之处。启用Flathub，运行:</p>
         <pre><code>
           <span class="unselectable">$</span> flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
         </code></pre>
       </li>
       <li>
-        <h2>Restart</h2>
-        <p>To complete setup, restart your system. Now all you have to do is <a href="https://flathub.org/">install some apps</a>!</p>
-        <p>Note: graphical installation of Flatpak apps may not be possible with Mageia.</p>
+        <h2>重启</h2>
+        <p>重启计算机以完成安装. 现在快来 <a href="https://flathub.org/">安装应用</a>吧!</p>
+        <p>Note: Mageia可能无法使用图形化界面安装Flatpak应用。</p>
       </li>
     </ol>
 
@@ -268,8 +268,8 @@
   info: >  
     <ol class="distrotut">
       <li>
-        <h2>Install Flatpak</h2>
-        <p>The official Flatpak PPA is the recommended way to install Flatpak. To install it, run the following in a terminal:</p>
+        <h2>安装Flatpak</h2>
+        <p>推荐使用Flatpak官方的PPA来安装Flatpak。 在终端中运行下面的命令:</p>
         <pre><code>
           <span class="unselectable">$</span> sudo add-apt-repository ppa:alexlarsson/flatpak
           <span class="unselectable">$</span> sudo apt update
@@ -277,16 +277,16 @@
         </code></pre>
       </li>
       <li>
-        <h2>Add the Flathub repository</h2>
-        <p>Flathub is the best place to get Flatpak apps. To enable it, run:</p>
+        <h2>添加Flathub仓库</h2>
+        <p>Flathub是托管Flatpak应用的最佳之处。启用Flathub，运行:</p>
         <pre><code>
           <span class="unselectable">$</span> flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
         </code></pre>
       </li>
       <li>
-        <h2>Restart</h2>
-        <p>To complete setup, restart your system. Now all you have to do is <a href="https://flathub.org/">install some apps</a>!</p>
-        <p>Note: graphical installation of Flatpak apps may not be possible with Pop!_OS.</p>
+        <h2>重启</h2>
+        <p>重启计算机以完成安装. 现在快来 <a href="https://flathub.org/">安装应用</a>吧!</p>
+        <p>Note: Pop!_OS可能无法使用图形化界面安装Flatpak应用。</p>
       </li>
     </ol>
 
@@ -295,8 +295,8 @@
   info: >  
     <ol class="distrotut">
       <li>
-        <h2>Install Flatpak</h2>
-        <p>The official Flatpak PPA is the recommended way to install Flatpak. To install it, run the following in the Terminal:</p>
+        <h2>安装Flatpak</h2>
+        <p>推荐使用Flatpak官方的PPA来安装Flatpak。 在终端中运行下面的命令:</p>
         <pre><code>
           <span class="unselectable">$</span> sudo apt install software-properties-common --no-install-recommends
           <span class="unselectable">$</span> sudo add-apt-repository ppa:alexlarsson/flatpak
@@ -305,16 +305,16 @@
         </code></pre>
       </li>
       <li>
-        <h2>Add the Flathub repository</h2>
-        <p>Flathub is the best place to get Flatpak apps. To enable it, run:</p>
+        <h2>添加Flathub仓库</h2>
+        <p>Flathub是托管Flatpak应用的最佳之处。启用Flathub，运行:</p>
         <pre><code>
           <span class="unselectable">$</span> flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
         </code></pre>
       </li>
       <li>
-        <h2>Restart</h2>
-        <p>To complete setup, restart your system. Now all you have to do is <a href="https://flathub.org/">install some apps</a>!</p>
-        <p>Note: graphical installation of Flatpak apps may not be possible with elementary OS.</p>
+        <h2>重启</h2>
+        <p>重启计算机以完成安装. 现在快来 <a href="https://flathub.org/">安装应用</a>吧!</p>
+        <p>Note: elementary OS可能无法使用图形化界面安装Flatpak应用。</p>
       </li>
     </ol>
 
@@ -323,22 +323,22 @@
   info: >  
     <ol class="distrotut">
       <li>
-        <h2>Install Flatpak</h2>
-        <p>A flatpak package is available in Raspbian Stretch and newer. To install it, run the following as root:</p>
+        <h2>安装Flatpak</h2>
+        <p>Raspbian Stretch及以上版本可以使用flatpak. 以root权限运行下面的命令:</p>
         <pre><code>
           <span class="unselectable">#</span> apt install flatpak
         </code></pre>
       </li>
       <li>
-        <h2>Add the Flathub repository</h2>
-        <p>Flathub is the best place to get Flatpak apps. To enable it, run:</p>
+        <h2>添加Flathub仓库</h2>
+        <p>Flathub是托管Flatpak应用的最佳之处。启用Flathub，运行:</p>
         <pre><code>
           <span class="unselectable">#</span> flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
         </code></pre>
       </li>
       <li>
-        <h2>Restart</h2>
-        <p>To complete setup, restart your system. Now all you have to do is <a href="https://flathub.org/">install some apps</a>!</p>
-        <p>Note: graphical installation of Flatpak apps may not be possible with Raspbian.</p>
+        <h2>重启</h2>
+        <p>重启计算机以完成安装. 现在快来 <a href="https://flathub.org/">安装应用</a>吧!</p>
+        <p>Note: Raspbian可能无法使用图形化界面安装Flatpak应用。</p>
       </li>
     </ol>
