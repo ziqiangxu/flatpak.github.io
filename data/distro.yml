@@ -1,3 +1,50 @@
+- name: "Deepin"
+  logo: "deepin.png"
+  info: >
+    <ol class="distrotut">
+      <li>
+        <h2>安装Flatpak</h2>
+        <p>在终端中运行下面的命令:</p>
+        <pre><code>
+          <span class="unselectable">$</span> sudo apt install flatpak
+        </code></pre>
+      </li>
+      <li>
+        <h2>安装Deepin的platform、sdk</h2>
+        <p>在终端中运行下面的命令:</p>
+        <pre><code>
+          <span class="unselectable">$</span> sudo apt install deepin-fprt-com.deepin.platform-15.5 deepin-fprt-com.deepin.sdk-15.5
+        </code></pre>
+      </li>
+      <li>
+        <h2>安装Gnome的platform、sdk(可选的)</h2>
+        <p>在终端中运行下面的命令:</p>
+        <pre><code>
+          <span class="unselectable">$</span> sudo apt install deepin-fprt-org.gnome.platform deepin-fprt-org.gnome.platform.locale
+          <span class="unselectable">$</span> sudo apt install deepin-fprt-org.deepin.flatdeb.gnome.platform-15.5 deepin-fprt-org.deepin.flatdeb.gnome.sdk-15.5
+        </code></pre>
+      </li>
+      <li>
+        <h2>安装其他的platform、sdk(可选的)</h2>
+        <p>在终端中运行下面的命令:</p>
+        <pre><code>
+          <span class="unselectable">$</span> sudo apt install deepin-fprt-org.deepin.flatdeb.kde4.platform-15.5 deepin-fprt-org.deepin.flatdeb.kde4.sdk-15.5
+          <span class="unselectable">$</span> sudo apt install deepin-fprt-org.deepin.flatdeb.kf5.platform-15.5 deepin-fprt-org.deepin.flatdeb.kf5.sdk-15.5
+        </code></pre>
+      </li>
+      <li>
+        <h2>添加Flathub仓库</h2>
+        <p>Flathub是托管Flatpak应用的最佳之处。启用Flathub，运行:</p>
+        <pre><code>
+          <span class="unselectable">$</span> flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+        </code></pre>
+      </li>
+      <li>
+        <h2>安装应用</h2>
+        <p>现在快来 <a href="https://flathub.org/">安装应用</a>吧!</p>
+      </li>
+    </ol>
+
 - name: "Ubuntu"
   logo: "ubuntu.svg"
   info: >  
