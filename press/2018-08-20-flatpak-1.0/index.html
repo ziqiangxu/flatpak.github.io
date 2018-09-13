@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+Flatpak 1.0
+</title>
+<meta content='text/html; charset=UTF8' http-equiv='content-type'>
+<meta content='Flatpak 1.0 Released, Ready for Prime Time' name='description'>
+<meta content='bundle,application,runtime,flatpak,xdg-app' name='keywords'>
+<meta content='width=device-width,initial-scale=1' name='viewport'>
+<link href='img/favicon.png' rel='icon' type='image/png'>
+<link href='/favicon.ico' rel='shortcut icon' type='image/x-icon'>
+<link href='img/favicon57.png' rel='apple-touch-icon' sizes='57x57'>
+<link href='img/favicon152.png' rel='apple-touch-icon' sizes='152x152'>
+<link href="/stylesheets/site.css" rel="stylesheet" />
+<link href="https://cdn.bootcss.com/animate.css/3.5.2/animate.css" rel="stylesheet" />
+<!-- = stylesheet_link_tag "http://overpass-30e2.kxcdn.com/overpass.css" -->
+</head>
+<script src="https://cdn.bootcss.com/jquery/2.2.4/jquery.min.js"></script>
+<script src="https://cdn.bootcss.com/jquery-easing/1.3/jquery.easing.min.js"></script>
+<script src="/javascripts/jquery.toc.min.js"></script>
+<script src="https://cdn.bootcss.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<script src="/javascripts/all.js"></script>
+<script type="text/javascript">
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-77917849-1', 'auto');
+  ga('send', 'pageview');
+</script>
+<body id='page-top'>
+<nav class='navbar navbar-default navbar-fixed-top' id='mainNav'>
+<div class='container-fluid'>
+<!-- Brand and toggle get grouped for better mobile display -->
+<div class='navbar-header'>
+<button class='navbar-toggle collapsed' data-target='#bs-example-navbar-collapse-1' data-toggle='collapse' type='button'>
+<span class='sr-only'>Toggle navigation</span>
+<span class='icon-bar'></span>
+<span class='icon-bar'></span>
+<span class='icon-bar'></span>
+</button>
+<a href="/" class="navbar-brand page-scroll">Flatpak</a>
+</div>
+<div class='collapse navbar-collapse' id='bs-example-navbar-collapse-1'>
+<ul class='nav navbar-nav navbar-right'>
+<li>
+<a href="/about/" class="page-scroll">关于我们 & 联系我们</a>
+</li>
+</ul>
+<!-- /.navbar-collapse -->
+</div>
+
+</div>
+<!-- /.container-fluid -->
+</nav>
+</body>
+<section class=""><div class="container"><div class="row"><div class="col-lg-10 col-lg-offset-1">
+<h1>Flatpak 1.0 正式发布, 迎接linux应用程序的黄金时代</h1>
+
+<p><img alt="" src="/img/delivery_truck.png" class="fright"></p>
+
+<p><strong>Stockholm, Sweden, 20 August 2018</strong>: 随着1.0版本的发布，Linux桌面应用程序分发框架Flatpak今天达到了一个重要的里程碑。</p>
+
+<p>可能有些人不了解Flatpak，一旦将应用程序构建为Flatpak，它几乎可以安装在任何Linux发行版上。 
+该模型旨在使Linux成为桌面应用程序开发者更具吸引力的选择，并为开发者提供更稳定的构建和开发平台。</p>
+
+<p>讨论1.0版本发布时，Flatpak的首席开发者Alexander Larsson说：“很多工作已经进入Flatpak 1.0，我们相信它已经准备好迎接更广泛的使用。 
+Flatpak的目标始终是彻底改变Linux生态系统，这是向前迈出的重要一步。”
+1.0版本通常标志着软件已经”功能完整”。因此开发人员称之为1.0的重要意义。 但这在实践中意味着什么呢？</p>
+
+<p>Flatpak 1.0带来了一系列新特性。 开发者可以将其应用的版本标记为生命周期结束，以指示何时不再支持这些应用。 
+应用程序有一种新的机制可以自行重启。 CLI有很多改进，包括新命令和选项。</p>
+
+<p>此外，自2017年10月主要稳定版本发布以来，Flatpak已经成熟。新版本有望更快，更可靠。 还会做一些重构。 
+（用户和开发者对这些可能并不怎么感兴趣，但它使得Flatpak更容易与您喜欢的Linux发行版集成。）</p>
+
+<p>然而，Flatpak生态系统中发生了重大变化。 为配合Flatpak 1.0的发布，Flatpak开发者结束了Flathub服务的beta测试。 
+Flathub是Flatpak应用程序的中心仓库。 它既可以是Linux桌面使用的仓库，也可以是
+<a href="https://flathub.org/">用户可以用来浏览和安装应用程序的网站</a>。 
+自2017年5月发布以来，它的应用和用户数量迅速增长。</p>
+
+<p>Flathub是Flatpak生态中的一大特色，正如LibreOffice的Stephan Bergmann所说：
+“自从我们第一次开始使用它以来，Flatpak已经走过了漫长的道路。 
+现在我们可以输入一个简单的命令来自动获取在Flathub上构建和发布的最新LibreOffice 6.1。 
+令我印象深刻的是我们收到LibreOffice Flatpak版本错误报告的广度和深度。 
+这表明人们在各种场景中都在使用我们的产品。”</p>
+
+<p>Flatpak生态系统的另一个重要发展是“运行时” —— 应用程序构建和运行的平台。 
+大多数Flatpak应用程序使用的“Freedesktop”运行时也发布了新版本。
+18.08版本具有新的生命周期策略，其中包括常规发布计划以及支持期和安全更新的保证。 
+这为Flatpak的应用程序平台提供了与商业操作系统产品类似的支持。</p>
+
+<p>Flatpak的开发者还指出了框架已经成熟的其他领域。 
+他们的<a href="http://docs.flatpak.org/en/latest/">开发者文档</a>已被重写并且更加完整。 
+Flatpak的网站还包括<a href="https://flatpak.org/setup/">在更多Linux发行版上设置Flatpak的教程</a>。</p>
+
+<p>最大的问题是这些对Linux的意义。 
+去年11月，Linux Mint(一个较大的Linux发行版)默认使用Flatpak，Fedora计划构建自己的Flatpak。 
+这些可能只是一个开始。</p>
+
+<p><em>本新闻稿（包括内容和图片）可以自由转载和修改。</em></p>
+</div></div></div></section>
+
+<section class='bg-black' id='footer'>
+<div class='container'>
+<div class='row'>
+<div class='col-lg-3 col-lg-offset-1 col-sm-3 hidden-xs'>
+<a class='navbar-brand page-scroll' href='#page-top'>
+<img title="Flatpak" class="full" src="/img/logo.svgz" alt="Logo" />
+</a>
+</div>
+<ul class='col-lg-7 col-lg-offset-0 col-sm-8 col-sm-offset-0 col-xs-7 col-xs-offset-2'>
+<li class='toplevel'>
+<a href="/">主页</a>
+</li>
+<li class='toplevel'>
+<!-- id links on index page -->
+<a href="/setup/" class="page-scroll">快速开始</a>
+</li>
+<li class='toplevel'>
+<!-- id links on index page -->
+<a href="https://flathub.org/" class="page-scroll">浏览应用程序 &#8599;</a>
+</li>
+<li class='toplevel'>
+<!-- id links on index page -->
+<a href="http://docs.flatpak.org/" class="page-scroll">开发者教程 &#8599;</a>
+</li>
+<li class='toplevel'>
+<!-- id links on index page -->
+<a href="/press/" class="page-scroll">新闻资讯</a>
+</li>
+<li class='toplevel'>
+<!-- id links on index page -->
+<a href="/faq/" class="page-scroll">FAQ</a>
+</li>
+<li class='toplevel'>
+<!-- id links on index page -->
+<a href="/about/" class="page-scroll">关于我们 & 联系我们</a>
+</li>
+</ul>
+<div class='col-lg-1 col-sm-1 col-xs-1'>
+<a href="https://twitter.com/FlatpakApps">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   viewBox="0 0 32 32"
+   height="32"
+   width="32"
+   xml:space="preserve"
+   version="1.1"
+   id="svg7466"><metadata
+     id="metadata7472"><rdf:RDF><cc:Work
+         rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><defs
+     id="defs7470" /><g
+     transform="matrix(1.25,0,0,-1.25,0,31.999997)"
+     id="g7474"><g
+       style="fill:#888a85"
+       transform="matrix(0.01061022,0,0,0.01061022,2.4158526,3.6660266)"
+       id="twitterbird"><path
+         id="path7478"
+         style="fill:#888a85;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         d="m 2000,1432.96 c -73.58,-32.64 -152.67,-54.69 -235.66,-64.61 84.7,50.78 149.77,131.19 180.41,227.01 -79.29,-47.03 -167.1,-81.17 -260.57,-99.57 -74.84,79.75 -181.48,129.57 -299.5,129.57 -226.6,0 -410.328,-183.71 -410.328,-410.31 0,-32.16 3.628,-63.48 10.625,-93.51 -341.016,17.11 -643.368,180.47 -845.739,428.72 -35.324,-60.6 -55.5583,-131.09 -55.5583,-206.29 0,-142.36 72.4373,-267.95 182.5433,-341.53 -67.262,2.13 -130.535,20.59 -185.8519,51.32 -0.0391,-1.71 -0.0391,-3.42 -0.0391,-5.16 0,-198.803 141.441,-364.635 329.145,-402.342 -34.426,-9.375 -70.676,-14.395 -108.098,-14.395 -26.441,0 -52.145,2.578 -77.203,7.364 C 276.391,476.219 427.926,357.578 607.48,354.281 467.051,244.219 290.129,178.621 97.8828,178.621 64.7617,178.621 32.0977,180.57 0,184.359 181.586,67.9414 397.27,0 628.988,0 1383.72,0 1796.45,625.238 1796.45,1167.47 c 0,17.79 -0.41,35.48 -1.2,53.08 80.18,57.86 149.74,130.12 204.75,212.41" /></g></g></svg>
+</a>
+<style>
+  #twitterbird path { transition: fill 400ms ease-in-out; }
+  #twitterbird path:hover { fill: #fff !important; }
+</style>
+</div>
+</div>
+</div>
+</section>
+
+</html>
